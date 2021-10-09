@@ -1,2 +1,2 @@
-# Hacktober2021
-A base repo open for contribution by anyone.
+# webdev 
+A simple website development repository.
