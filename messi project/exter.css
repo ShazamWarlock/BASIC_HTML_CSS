@@ -1,23 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
 body {
-  color: lightblue;
-  background-image: url("leo.jpg");
+	font-family: "Poppins", sans-serif;
+    margin: 0;
+  
   font-family: calibri;
 }
 
-h1 {
-  color: gray;
-  text-align: center;
+.naving {
+	background-color: rgb(7, 22, 34);
 }
-p{
-	padding: 20px 20px 20px 20px;
-	padding-right: 500px;
+.nav-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-h2{
-	padding: 10px;
-	margin: 1em;
-	color: magenta;
+.nav-link {
+	font-weight: bold;
+	color: white;
 }
-.bord{
-	background-image: none;
-	
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("leo.jpg");
+	padding-top: 5rem;
+	padding-left: 4rem;
 }
+.home {
+	display: flex;
+	align-items: center;
+	padding-top: 6%;
+	padding-left: 6%;
+	padding-bottom: 5%;
+}
+.intro {
+	padding-left: 3%;
+}
+.hello {
+	font-size: 5rem;
+	font-weight: bold;
+	color: rgb(201, 201, 201);
+}
+.par {
+	font-weight: bold;
+	color: rgb(103, 139, 118);
+	padding-left: 5%;
+	margin-top: 15%;
+}
+.para1 {
+	font-size: 2rem;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	color: rgb(254, 255, 196);
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+	font-size: 3rem;
+
+}
+.about-lio {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	padding-left: 6%;
+	padding-right: 35%;
+}
+.para {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.foot {
+	background-color: #272727;
+	padding: 3% 0;
+
+  }
+  
+  .foot-head1 {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .linktree {
+	color: #fff;
+	text-decoration: none;
+  }
+  .linktree:hover {
+	color: #fff;
+	opacity: 0.7;
+  }
+  
+  
